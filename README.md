@@ -53,7 +53,7 @@ Tested on 40 images (30 dogs, 10 non-dogs):
 | Correct breed | 80% | 90% | **93.3%** |
 | Runtime | ~2s | ~4s | ~17s |
 
-**VGG performed best overall**, but took 4 to 7 times longer than the other two. For a high-volume system, ResNet's 90% breed accuracy at a fraction of the runtime could be the more practical choice.
+**VGG performed best overall**, but took roughly 4 to 8 times longer than the other two. For a high-volume system, ResNet's 90% breed accuracy at a fraction of the runtime could be the more practical choice.
 
 All three models made the same two breed errors: Great Pyrenees mistaken for Kuvasz, and Beagle mistaken for Walker Hound. These breeds look visually similar, so the mistake likely comes from the images themselves rather than any one model's weakness.
 
