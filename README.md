@@ -70,21 +70,21 @@ On a custom test (same dog photo, original vs. horizontally flipped), VGG gave d
 
 ## Project Structure
 
-check_images.py # Main program
-get_input_args.py # Command line argument parsing
-get_pet_labels.py # Ground-truth label creation from filenames
-classify_images.py # CNN classification and label comparison
-adjust_results4_isadog.py # Dog / not-dog flagging
-calculates_results_stats.py # Statistics calculation
-print_results.py # Results output
-classifier.py # Provided: wraps pretrained CNN inference
-test_classifier.py # Provided: example classifier usage
-dognames.txt # Provided: valid dog breed names
-imagenet1000_clsid_to_human.txt # Provided: CNN label reference
-run_models_batch*.sh # Batch scripts to run all 3 architectures
-pet_images/ # 40-image test set
-uploaded_images/ # Custom test images
-*_pet-images.txt, *_uploaded-images.txt # Saved run outputs
+check_images.py              # Main program
+get_input_args.py            # Command line argument parsing
+get_pet_labels.py            # Ground-truth label creation from filenames
+classify_images.py           # CNN classification and label comparison
+adjust_results4_isadog.py    # Dog / not-dog flagging
+calculates_results_stats.py  # Statistics calculation
+print_results.py             # Results output
+classifier.py                # Provided: wraps pretrained CNN inference
+test_classifier.py           # Provided: example classifier usage
+dognames.txt                 # Provided: valid dog breed names
+imagenet1000_clsid_to_human.txt  # Provided: CNN label reference
+run_models_batch*.sh         # Batch scripts to run all 3 architectures
+pet_images/                  # 40-image test set
+uploaded_images/             # Custom test images
+*_pet-images.txt, *_uploaded-images.txt  # Saved run outputs
 
 
 `_hints.py` files are Udacity-provided reference versions, not part of the final implementation.
