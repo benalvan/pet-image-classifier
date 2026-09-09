@@ -67,5 +67,3 @@ On a custom test (same dog photo, original vs. horizontally flipped), VGG gave d
 - File I/O for structured text (`dognames.txt`)
 - CNN inference with pre-trained models (PyTorch/torchvision)
 - Runtime benchmarking and accuracy/speed tradeoff analysis
-
-`_hints.py` files are Udacity-provided reference versions, not part of the final implementation.
