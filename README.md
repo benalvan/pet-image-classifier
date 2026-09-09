@@ -1,4 +1,4 @@
-Dog Breed Image Classifier
+#**Dog Breed Image Classifier**
 
 A Python command-line tool that uses pre-trained CNNs to check whether an image is a dog and, if so, identify its breed. Applies the tool to a realistic use case: verifying entries for a dog show registration system that needs to catch non-dog submissions.
 
