@@ -70,7 +70,7 @@ On a custom test (same dog photo, original vs. horizontally flipped), VGG gave d
 
 ## Project Structure
 
-check_images.py# Main program
+check_images.py # Main program
 get_input_args.py # Command line argument parsing
 get_pet_labels.py # Ground-truth label creation from filenames
 classify_images.py # CNN classification and label comparison
