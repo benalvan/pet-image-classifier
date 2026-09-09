@@ -51,7 +51,7 @@ Tested on 40 images (30 dogs, 10 non-dogs):
 | Correct dog detection | 100% | 100% | **100%** |
 | Correct non-dog detection | 100% | 90% | **100%** |
 | Correct breed | 80% | 90% | **93.3%** |
-| Runtime | ~3s | ~5s | ~21s |
+| Runtime | ~2s | ~4s | ~17s |
 
 **VGG performed best overall**, but took 4 to 7 times longer than the other two. For a high-volume system, ResNet's 90% breed accuracy at a fraction of the runtime could be the more practical choice.
 
